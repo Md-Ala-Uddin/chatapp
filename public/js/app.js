@@ -17909,7 +17909,7 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   created: function created() {
-    this.selected = currentRoom;
+    this.selected = this.currentRoom;
   }
 });
 
@@ -21942,7 +21942,7 @@ var _hoisted_4 = {
   "class": "bg-white overflow-hidden shadow-xl sm:rounded-lg"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_chat_room_selection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("chat-room-selection");
+  var _component_ChatRoomSelection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ChatRoomSelection");
 
   var _component_message_container = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("message-container");
 
@@ -21952,7 +21952,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_app_layout, null, {
     header: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", _hoisted_1, [_ctx.currentRoom.id ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_chat_room_selection, {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", _hoisted_1, [_ctx.currentRoom.id ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_ChatRoomSelection, {
         key: 0,
         rooms: _ctx.chatRooms,
         currentRoom: _ctx.currentRoom,

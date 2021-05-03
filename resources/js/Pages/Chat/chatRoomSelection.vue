@@ -30,7 +30,7 @@ export default {
         }
     },
     created() {
-        this.selected = currentRoom;
+        this.selected = this.currentRoom;
     }
 }
 </script>
